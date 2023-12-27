@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksha Sharma - Web Developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/intro.html">MY INTRO</a></li>
+                    <li><a href="/service.html">SERVICES</a></li>
+                    <li><a href="/resume.html">RESUME</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                </ul>
+            </nav>             
+        </div>
+        <div class="main">
+            <div class="contactform">
+                <h1>Contact Me For Work/General Enquiries</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="clientName">Name</label>
+                        <input type="text" class="form-control" id="clientName" aria-describedby="nameHelp">
+                        <small id="nameHelp" class="form-text">I will never share your email and phone with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientEmail">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text">I will never share your email and phone with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientPhone">Phone</label>
+                        <input type="tel" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="clientEnquiry">Enquiry</label>
+                        <textarea class="form-control" id="clientEnquiry" rows="3"></textarea>
+                        <small id="enquiryHelp" class="form-text">I will never share your email and phone with anyone else.</small>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">Verify you are human</label>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
